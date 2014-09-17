@@ -1,4 +1,4 @@
 DevSettings
 ===========
 
-My dev settings
+Combined repo for all my dev settings
