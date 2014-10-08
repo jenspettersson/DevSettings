@@ -1,0 +1,29 @@
+[user]
+	name = NAME
+	email = EMAIL
+[push]
+	default = simple
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[mergetool]
+	keepBackup = false
+	prompt = false
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	prompt = false
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	ignore = update-index --assume-unchanged
+	unignore = update-index --no-assume-unchanged
+	ignored = !git ls-files -v | grep^[[:lower:]]
+	give = reset
+	prune = fetch --prune --tags
+	sync = !sh echo 'Bitch please!'
+[core]
+	autocrlf = true
+[credential]
+	helper = !\\\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-winstore.exe\\\"
