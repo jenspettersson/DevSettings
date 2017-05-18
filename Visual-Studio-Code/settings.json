@@ -6,5 +6,14 @@
     // Controls if opened editors from Quick Open show as preview. Preview editors are reused until they are kept (e.g. via double click or editing).
     "workbench.editor.enablePreviewFromQuickOpen": false,
 
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    "typescript.check.tscVersion": false,
+
+    "explorer.openEditors.visible": 0,
+
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "workbench.welcome.enabled": false,
+    "editor.snippetSuggestions": "top"
 }

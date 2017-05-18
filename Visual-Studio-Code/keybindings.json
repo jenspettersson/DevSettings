@@ -1,7 +1,40 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+d",               "command": "editor.action.copyLinesDownAction",
+    { "key": "ctrl+shift+d",               "command": "editor.action.copyLinesDownAction",
                                      "when": "editorTextFocus && !editorReadonly" },
     { "key": "ctrl+k ctrl+d",           "command": "editor.action.formatDocument",
-                                     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly" }
-]
+                                    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+                                },
+                                {
+                                    "key": "ctrl+n",
+                                    "command": "explorer.newFile"
+                                },
+                                {
+                                    "key": "ctrl+n",
+                                    "command": "-workbench.action.files.newUntitledFile"
+                                },
+                                {
+                                    "key": "ctrl+shift+s",
+                                    "command": "workbench.action.files.saveAll"
+                                },
+                                {
+                                    "key": "ctrl+k s",
+                                    "command": "-workbench.action.files.saveAll"
+                                },
+                                {
+                                    "key": "ctrl+`",
+                                    "command": "workbench.action.terminal.focus"
+                                },
+                                {
+                                    "key": "ctrl+shift+`",
+                                    "command": "-workbench.action.terminal.new"
+                                },
+                                {
+                                    "key": "ctrl+shift+`",
+                                    "command": "workbench.action.terminal.toggleTerminal"
+                                },
+                                {
+                                    "key": "ctrl+`",
+                                    "command": "-workbench.action.terminal.toggleTerminal"
+                                }
+                            ]
